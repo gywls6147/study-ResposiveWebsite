@@ -1,0 +1,9 @@
+
+/* 레이아웃 */
+#header {background: url(../img/header_bg.jpg);}
+
+/* 컨테이너 */
+.container {width: 1200px; margin: 0 auto; background: rgba(0,0,0,0.3);}
+
+/* 헤더 */
+.bang {height: 327px;}
