@@ -2,6 +2,7 @@
 /* 레이아웃 */
 #header {background: url(../img/header_bg.jpg);}
 #nav {background-color: #f6fdff;}
+#title {background-color: #eaf7fd;}
 /* 컨테이너 */
 .container {width: 1200px; margin: 0 auto;/* background: rgba(0,0,0,0.3)*/ repeat-x center top;}
 
@@ -99,6 +100,21 @@
 	position: absolute; left: 0px; top: 8px;}
 .nav div:last-child li {width: 100%;}
 .nav div h3 {font-size: 18px; color:#25a2d0; font-weight: bold; margin: 4px;}
+.nav div li a {position: relative;}
+.nav div li a:after  {
+	content:'';
+	width: 0; height: 1px;
+	background: #25aad0;
+	transition: all .2s ease-out;
+	position: absolute; bottom: 0; left: 0;
+}
+.nav div li:hover a:after {
+	width: 100%;
+}
+
+/* 타이틀 */
+.title {}
+.title h2 {font-family: 'Nanum+Brush+Script', cursive; font-size: 39px; color: #0093bd;padding: 5px 0;}
 
 /* mediaquery */
 @media (max-width: 1220px){
